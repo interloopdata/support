@@ -1,3 +1,7 @@
+
+
+
+// THEME STYLES
 @import "normalize";
 @import "variables";
 @import "mixins";
@@ -43,3 +47,57 @@
 @import "content-tags";
 @import "wysiwyg";
 @import "upload_dropzone";
+
+
+// INTERLOOP STYLES
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+@import '../node_modules/@interloopdata/loopkit/dist/tokens/scss/tokens.scss';
+
+// CUSTOM STYLES
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+
+a:hover {
+    text-decoration: none !important;
+}
+// CUSTOM STYLES
+.hero {
+    background-color: $color-neutral-900 !important;
+}
+
+.logo a {
+    color: $color-neutral-900 !important;
+    font-weight: 500 !important;
+}
+
+.home-section {
+    max-width: 80%;
+    margin: auto;
+}
+
+.intro-section {
+    text-align: center;
+}
+
+.cta-section {
+    text-align: center;
+}
+
+.il-card {
+    display: inline-block;
+    border: solid 1px $border;
+    box-shadow: $shadow-sm;
+    border-radius: $border-radius; 
+    margin: $spacer-16;
+    padding: $spacer-24;
+    text-align: center;
+    max-width: 320px;
+
+    i {
+        font-size: 24px;
+    }
+
+    h4 {
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+}

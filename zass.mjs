@@ -66,4 +66,5 @@ export default () =>
       const unescaped = unescapeVariables(css);
       return convertZassFunctions(unescaped);
     },
+    includePaths: ["node_modules/"],
   });
