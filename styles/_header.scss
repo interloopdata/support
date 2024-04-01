@@ -17,7 +17,8 @@ $header-height: 71px;
 
 .logo span {
   margin: 0 10px;
-  color: $brand_color;
+  color: $text_color;
+  font-weight: 600;
 }
 
 .logo a {
@@ -81,10 +82,11 @@ $header-height: 71px;
     }
 
     border: 0;
-    color: $link_color;
+    color: $text_color;
     display: none;
     font-size: 14px;
     padding: 0 20px 0 0;
+    font-weight: 600;
     width: auto;
 
     [dir="rtl"] & { padding: 0 0 0 20px;}
