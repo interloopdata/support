@@ -186,10 +186,90 @@ template {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "GilroyLightItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyLightItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyLightItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyThin";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyThin/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyThin/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyBold";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyBold/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyRegularItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyRegularItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyRegularItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyLight";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyLight/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyLight/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyBlackItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyBlackItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyBlackItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyExtraBold/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyExtraBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroySemiBold";
+  src: url("https://cdn.interloopdata.com/fonts/GilroySemiBold/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroySemiBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyRegular/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyRegular/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyHeavyItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyHeavyItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyHeavyItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyThinItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyThinItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyThinItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyUltraLight";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyUltraLight/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyUltraLight/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyBoldItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyBoldItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyBoldItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyBlack";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyBlack/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyBlack/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyMedium/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyMedium/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyHeavy";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyHeavy/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyHeavy/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyMediumItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyMediumItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyMediumItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyExtraBoldItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyExtraBoldItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyExtraBoldItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroySemiBoldItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroySemiBoldItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroySemiBoldItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "GilroyUltraLightItalic";
+  src: url("https://cdn.interloopdata.com/fonts/GilroyUltraLightItalic/font.woff2") format("woff2"), url("https://cdn.interloopdata.com/fonts/GilroyUltraLightItalic/font.woff") format("woff");
+}
 body {
   background-color: $background_color;
   color: $text_color;
-  font-family: $text_font;
+  font-family: "GilroySemiBold";
   font-size: 15px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -2147,7 +2227,7 @@ ul {
   word-break: break-word;
   word-wrap: break-word;
   display: flow-root;
-  font-family: $text_font;
+  font-family: "Gilroy";
   line-height: 1.6;
   overflow-x: auto;
 }
@@ -2688,7 +2768,7 @@ ul {
   margin-bottom: 30px;
 }
 .post-content {
-  font-family: $text_font;
+  font-family: "Gilroy";
   line-height: 1.6;
   word-break: break-word;
 }
